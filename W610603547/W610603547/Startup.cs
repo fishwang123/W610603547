@@ -9,6 +9,7 @@ namespace W610603547
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+
         }
     }
 }

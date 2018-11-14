@@ -8,6 +8,7 @@ namespace W610603547.Models
 {
     public class Bookcontext: DbContext
     {
+        public DbSet<Book> Books { get; set; }
     }
     public class Book
     {
